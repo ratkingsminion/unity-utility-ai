@@ -1,0 +1,17 @@
+DONE
+X "State" out of Agent?
+X ConditionEditor for colored bar
+X SubActions for small reusable actions
+X Multi-Memories? -> Hierarchy
+X Optional/timed per-frame update for Actions? (already possible for States)
+X Min Calculation Method
+X Allow different Consideration Score Formulas in One Action (can model "X and (Y or Z)")
+X Swarm Behaviour?
+
+TODO
+* Documentation
+
+DISCUSSION
+* Alarming / "Swarm"-AI -> one queen-bee AI, several sub AIs? better: "neurons" that fire to the next/nearest AIs
+* How to model X and (Y or Z)? -> AIConsiderationSelector
+* Multi-Actions? [Better not, as they often change the player's state. Use SubAIActions for that.]
